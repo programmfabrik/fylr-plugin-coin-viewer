@@ -1,0 +1,17 @@
+key,de-DE,R,en-US,R,da-DK,R,fi-FI,R,sv-SE,R,fr-FR,R,it-IT,R,es-ES,R,cs-CZ,R,pl-PL,R,ru-RU,R,uz-UZ,R
+coin.viewer.buttonbar.fullscreen.button.close|icon,fa-compress,FALSE,fa-compress,FALSE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE
+coin.viewer.buttonbar.fullscreen.button.open|icon,fa-expand,FALSE,fa-expand,FALSE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE
+coin.viewer.buttonbar.fullscreen.button|tooltip,Vollbildschirm öffnen/schließen,FALSE,Open/Close fullscreen,FALSE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE
+coin.viewer.main.button|icon,fa-circle-thin,FALSE,fa-circle-thin,FALSE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE
+coin.viewer.main.button|tooltip,Coin Viewer öffnen,FALSE,Open coin viewer,FALSE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE
+coin.viewer.main.error.json_wrong_data|icon,fa-warning,FALSE,fa-warning,FALSE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE
+coin.viewer.main.error.json_wrong_data|text,The provided JSON file does not have the expected format.,FALSE,The provided JSON file does not have the expected format.,FALSE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE
+coin.viewer.tooltip.IconResetView,"Licht, Farbe und Position zurücksetzen.",FALSE,"Reset view, light direction, color and position.",FALSE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE
+coin.viewer.tooltip.IconZoomOut,Verkleinern.,FALSE,Zoom out.,FALSE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE
+coin.viewer.tooltip.IconZoomIn,Vergrößern.,FALSE,Zoom in.,FALSE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE
+coin.viewer.tooltip.IconRotateLeft,Gegen den Uhrzeigersinn drehen.,FALSE,Rotate counter-clockwise.,FALSE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE
+coin.viewer.tooltip.IconRotateRight,Im Uhrzeigersinn drehen.,FALSE,Rotate clockwise.,FALSE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE
+coin.viewer.tooltip.IconMoveObjectOrLight,Lichteinstrahlung oder Position verändern.,FALSE,Toggle manipulation of light direction or object position.,FALSE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE
+coin.viewer.tooltip.IconSelectColor,Farbe ändern.,FALSE,Choose custom color for the object.,FALSE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE
+coin.viewer.tooltip.IconRule,Gitterlinien ein- oder ausblenden.,FALSE,Toggle grid.,FALSE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE
+coin.viewer.tooltip.IconFlip,Objekt umdrehen.,FALSE,Show other object side.,FALSE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE

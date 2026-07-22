@@ -1,0 +1,26 @@
+# Build configuration for fylr-build-plugin — the explicit build description.
+# Delivered files are listed here; "check" (runs with every build) warns when
+# a manifest reference is missing from the build folder.
+# All features: https://github.com/programmfabrik/fylr-build-plugin
+
+server:
+  install:
+    - l10n
+
+webfrontend:
+  # CoffeeScript 1.x, compiled + concatenated in this order into
+  # plugin.webfrontend.url (webfrontend/fylr-plugin-coin-viewer.js)
+  coffee1:
+    - webfrontend/CoinViewerDetailPlugin.coffee
+  # plain JS (the vendored WebGL library): appended to that same bundle
+  # verbatim, in this order
+  js:
+    - webfrontend/lib/coin.js
+  # compiled to same-named .css
+  scss:
+    - webfrontend/fylr-plugin-coin-viewer.scss
+
+loca:
+  - csv: l10n/fylr-plugin-coin-viewer.csv
+    sheet: 1SLm6hVPEXe1b9lvi7B1Idqeqpdf7qAqU1E8g-IJyvoE
+    gid: 0

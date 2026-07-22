@@ -1,0 +1,4 @@
+/build
+*.coffee.js
+webfrontend/fylr-plugin-coin-viewer.js
+.DS_Store
