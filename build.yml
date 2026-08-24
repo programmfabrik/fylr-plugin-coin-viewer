@@ -8,14 +8,13 @@ server:
     - l10n
 
 webfrontend:
-  # CoffeeScript 1.x, compiled + concatenated in this order into
-  # plugin.webfrontend.url (webfrontend/fylr-plugin-coin-viewer.js)
-  coffee1:
-    - webfrontend/CoinViewerDetailPlugin.coffee
-  # plain JS (the vendored WebGL library): appended to that same bundle
-  # verbatim, in this order
-  js:
-    - webfrontend/lib/coin.js
+  # assembled into plugin.webfrontend.url, in this order:
+  # .coffee is compiled (CoffeeScript 1.x), .scss compiled,
+  # anything else taken verbatim
+  bundles:
+    - sources:
+        - webfrontend/CoinViewerDetailPlugin.coffee
+        - webfrontend/lib/coin.js
   # compiled to same-named .css
   scss:
     - webfrontend/fylr-plugin-coin-viewer.scss
